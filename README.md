@@ -2,86 +2,83 @@ TaeMOBA
 =======
 
 O TaeMOBA (nome provisório) será um jogo competitivo online desenvolvido por
-[Taelin](https://github.com/VictorTaelin) em seu tempo livre da
-[HOC](https://HigherOrderCO.com).
+[Taelin](https://github.com/VictorTaelin) em seu tempo livre (fora do horário de
+trabalho da [HOC](https://HigherOrderCO.com)).
 
 ## Resumo
 
 O TaeMOBA nasce de uma frustração pessoal com o game design MOBAs mobernos. Na
-minha percepção, sinto que poucos devs pensam fora da caixa. Dogmas raramente
-são questionados e mecânicas novas raramente "saem da caixa". De forma curta,
-todos os MOBAs mobernos são extremamentes parecidos uns com os outros. O TaeMOBA
+minhas percepção, poucos devs pensam fora da caixa. Dogmas raramente são
+questionados e mecânicas novas raramente "saem da caixa". De forma curta, todos
+os MOBAs mobernos são extremamente parecidos uns com os outros. O TaeMOBA
 propõe-se a quebrar completamente a fórmula, criando algo completamente novo e
 original, baseado em ideias e pensamentos que acumulei ao longo de anos.
 
 Uma das características mais importantes desse projeto é que seu design não será
 pré-definido em um GDD estático, como é feito geralmente. Ao invés disso,
-diversas ideias serão exploradas, selecionadas e descartadas, permitindo com que
+diversas ideias serão exploradas, selecionadas e descartadas, fazendo com que
 o resultado final seja lapidado de forma interativa e evolutiva. Ou seja, o
 TaeMOBA, nos seus primeiros meses, terá um **Game Design dinâmico** que aos
 poucos será solidificado.
 
 Isso é possível porque o jogo será programado usando uma linguagem de
-programação exclusiva e altamente abstrata, conhecida como "Cálculo das
-Construções", implementado [neste](https://github.com/VictorTaelin) repositório.
-Essa escolha permitirá com que o código evolua de forma extremamente veloz, e
-que mudanças drásticas sejam feitas em pouco tempo, permitindo com que
-exploremos diversos conceitos antes de chegar ao design final. Essa escolha
-também nos permite trocar de game engine como facilidade, nos livrando de
-depender ou ficar preso a um framework específico.
+programação altamente abstrata, conhecida como "Cálculo das Construções",
+implementado [neste](https://github.com/VictorTaelin/taelang) repositório. Essa
+escolha permitirá com que o código evolua de forma extremamente veloz, e que
+mudanças drásticas sejam feitas em pouco tempo, permitindo com que exploremos
+diversas ideias antes de chegar ao design final. Essa escolha também nos permite
+trocar de game engine como facilidade, nos livrando de ficar preso a um
+framework específico.
 
 ## Conceitos
 
 Apesar do design do TaeMOBA ainda estar sendo definido, já temos diversos
-conceitos em potencial. Usaremos o espaço para descrever todos eles, cobrindo
-tópicos que vão desde a economia e o marketing do jogo, até conceitos de game
-design e da arte. Quando não especificado, deve-se assumir que TaeMOBA será
-parecido com outros jogos do gênero. Por exemplo, o conceito de um client, a
-ideia de "partidas 5v5 com um vencedor", os modos de jogo (normal, rankeado),
-elos, lobbies, friend lists, cosméticos, chats; tudo isso será herdado de MOBAs
-tradicionais sem grandes mudanças. Porém, no jogo em si, muitas coisas serão
-alteradas significativamente, e, nesse espaço, descreverei algumas delas. Não
-necessariamente tudo que está aqui será adotado, mas fazem parte do conceito
-inicial. Essa não é uma lista exaustiva, e será atualizada conforme eu tiver
-tempo de formalizar minhas ideias. 
+conceitos em potencial. Aqui, descreverei alguns deles, cobrindo tópicos desde o
+modelo de negócios do jogo, até conceitos de game design e da arte. Quando não
+especificado, deve-se assumir que TaeMOBA será parecido com outros jogos do
+gênero. Por exemplo, o conceito de "partidas 5v5 com um vencedor", os modos de
+jogo (normal, rankeado, etc.), elos, lobbies, friend lists, cosméticos; tudo
+isso será herdado de MOBAs tradicionais sem grandes mudanças. Porém, no jogo em
+si, muitos aspectos serão alteradas significativamente.
 
 ### Marketplace de Cosméticos
 
-Em 2021, o jogo Fortnite gerou uma receita de quase **6 bilhões** de dólares
+Em 2021, o jogo Fortnite gerou uma receita de quase **6 bilhões** de dólares,
 apenas com a venda de cosméticos digitais
 ([fonte](https://www.tweaktown.com/news/91786/fortnite-made-nearly-6-billion-from-in-game-purchases-2021/index.html#:~:text=According%20to%20data%20compiled%20by,game%20digital%20cosmetics%20throughout%202021.)).
 Ao mesmo tempo, designers e artistas brasileiros vendem seus trabalhos - que,
 muitas vezes, levam dias para criar - por valores tão baixos quanto R$100, ou
-até menos. Ou seja, jogos online criaram um mercado gigantesco onde pessoas
-gastam fortunas comprando artes online; afinal, o que mais seria uma "skin"?;
-porém, esse valor é integralmente capturado por grandes empresas, e artistas
-da vida mal se beneficiaram com ele! É hora de bagunçar esse mercado.
+até menos. Isso revela uma realidade cruel: por um lado jogos online criaram um
+mercado gigantesco onde pessoas gastam fortunas comprando artes online; afinal,
+o que mais seria uma "skin"? Por outro, esse valor é integralmente capturado
+por grandes empresas, e artistas da vida mal se beneficiaram com ele! É hora de
+bagunçar esse mercado.
 
 O TaeMOBA vem para a fazer, com as grandes empresas de GameDev, o que o Uber fez
-com os Taxis: trazer esse valor de volta para aquele que o produz. No TaeMOBA,
-haverá um mercado de cosméticos onde artistas poderão criar e enviar suas
-próprias skins, e uma grande parte da receita gerada por essas skins será
-enviada diretamente para o artista.
+com os Taxis: trazer esse valor de volta para quem o produz. No TaeMOBA, haverá
+um mercado de cosméticos onde artistas poderão criar e comercializar suas
+próprias skins, e a maior parte da receita gerada por essas skins será enviada
+diretamente para o artista.
 
 ### Revshare com Pro Players (aka "ELO Remunerado")
 
 Grande parte do sucesso de jogos como League of Legends e Valorant pode ser
 atribuído ao seu cenário competitivo. Em 2018, a Riot ofereceu um Prize Pool de
 6 milhões de dólares para os campeões do campeonato mundial de League of
-Legends. Parece um valor exorbitante, porém, essa percepção logo se desvanece
-ao percebermos que isso é cerca de 0.1% da receita de cosméticos (que é uma
-fração da receita total). Ademais, a base do cenário competitivo - isso é,
-jogadores que dão corpo e alma para alcançar os elos mais altos dos modos
-rankeados - é completamente não remunerada, o que cria incertezas, inseguranças, 
-falta de estabilidade econômica para aqueles que são a base destes eventos que
-geram, direta e indiretamente, rios de lucros para as empresas.
+Legends. Parece um valor exorbitante, porém, essa percepção logo se desvanece ao
+percebermos que isso é cerca de 0.1% da receita de cosméticos (que é uma fração
+da receita total). Ademais, a base do cenário competitivo - isso é, jogadores
+que dão corpo e alma para alcançar os elos mais altos dos modos rankeados - é
+completamente não remunerada, o que cria incertezas, inseguranças e falta de
+estabilidade econômica para aqueles que são a base destes eventos que geram,
+direta e indiretamente, rios de lucros para as empresas.
 
 O TaeMOBA pretende quebrar esse paradigma e valorizar o cenário competitivo de
 verdade, redirecionando uma % fixa da receita total diretamente para os
 jogadores de elo mais alto dos modos rankeados, também conhecidos como
 "Challengers". Isso não somente dá uma margem de segurança e estabilidade para
 aqueles que pretendem, um dia, fazer parte do modo competitivo, como aumenta o
-próprio valor do modo rankeado.
+próprio significado/valor dos elos do modo rankeado.
 
 ### Mecânicas Únicas ("Abathurização")
 
@@ -91,37 +88,46 @@ MOBAs tradicionais de maneiras totalmente inovadoras. Por exemplo, "Abathur" é
 um personagem extremamente frágil, que facilmente morre com um único ataque;
 porém, ele possui uma habilidade capaz de escolher e buffar qualquer personagem
 do jogo, com alcance global. Dessa forma, a experiência de jogar com esse
-personagem é uma experiência totalmente diferente; um jogador de Abathur
-raramente move seu personagem, passando maior parte do tempo olhando para o
-mapa, de forma global, buscando oportunidades para influenciar positivamente seu
-time. Outros personagens que quebram as regras incluem Cho'Gall (um único boneco
-controlado por dois jogadores), o Murky (que não "morre"; ao invés disso, nasce
-quase imediatamente no seu ovo), e o Deathwing (um dragão gigante que é
-totalmente imune a controle de grupo e pode voar pelo mapa, como um raid boss). 
+personagem é totalmente diferente; um jogador de Abathur raramente move seu
+personagem, passando maior parte do tempo focando no mapa, de forma global,
+buscando oportunidades para influenciar positivamente seu time. Outros
+personagens que quebram as regras incluem Cho'Gall (um único boneco controlado
+por dois jogadores), o Murky (que não "morre"; ao invés disso, nasce quase
+imediatamente no seu ovo), e o Deathwing (um dragão gigante que é totalmente
+imune a controle de grupo e pode voar pelo mapa, como um raid boss). 
 
-No TaeMOBA, esse princípio será adotado e amplificado significativamente. Ou
-seja, teremos personagens que quebram completamente a fórmula padrão, de formas
-que nem mesmo o HotS se atreveu a quebrar. Alguns exemplos:
+No TaeMOBA, esse princípio será adotado e amplificado significativamente.
+Teremos personagens que quebram completamente a fórmula padrão, de formas que
+nem mesmo o HotS se atreveu a quebrar. Alguns exemplos:
 
 A. Um fantasma sem "boneco", que atua como um "mestre das torres", afetando as
-estruturas e os minions aliados, de modo a auxiliar seu time na vitória.
+estruturas e os minions aliados, de modo a auxiliar seu time na vitória; ou
+seja, um boneco que joga o jogo como um "tower defense".
 
 B. Uma "planta alien invasiva", que, ao contrário, tem dezenas de "bonecos",
 porém imóveis, sendo seu objetivo se espalhar pelo mapa, formando uma "floresta"
-que favorece seu time em pontos chave.
+que favorece seu time em pontos chave. Jogar com esse campeão requer uma
+capacidade altíssima de multi-task, por ter dezenas de unidades sob seu
+controle.
 
 C. Um "mercador", que substitui a loja e passa o jogo inteiro forjando itens
-para os seus aliados.
+para os seus aliados. Jogar com esse boneco torna o jogo mais similar a um jogo
+de cartas estilo "Heartstone".
 
 D. Uma "tartaruga encouraçada", que se move a 30% da velocidade, porém possui
-uma quantidade de vida e defesa extraordinária.
+uma quantidade de vida e defesa extraordinária. Seria um boneco tático em
+equipe, pois requer coordenação com seu time para ter valor.
 
-E. Uma "monge psíquico" (pense no Abra) que não possui qualquer habilidade de
-dano, porém pode se teletransportar pelo mapa, e transportar aliados pelo mapa.
+E. Uma "monge psíquico" (pense no Abra) extremamente frágil e que não possui
+qualquer habilidade de dano, porém pode se teletransportar pelo mapa, e
+transportar aliados pelo mapa. Jogar esse boneco também requer bastante
+coordenação com a equipe, além de um posicionamento perfeito, valorizando tanto
+o micro quanto a comunicação.
 
-Esses e outros personagens que "driblam das regras" serão constantemente
+E por aí vai, cada personagem valorizando aspectos diferentes da habilidade de
+um jogador. Esses e outros designs que "driblam das regras" serão constantemente
 explorados e testados no TaeMOBA. Em outros MOBAs, conceitos assim são raramente
-adotados, e o boneco, em geral, tem basicamente os mesmos atributos, a mesma
+adotados, e os bonecos, em geral, tem basicamente os mesmos atributos, a mesma
 move speed, as mesmas funções (jungler, ADC, etc.). Isso é feito pois esses
 MOBAs não foram projetados pensando em personagens muito diferentes e, portanto,
 a presença deles poderia causar problemas e frustrações. Por exemplo, é
@@ -139,7 +145,7 @@ onde seja possível escolher o tipo de aliado que você aceita ter no seu time
 significativamente reduziria a frustração de estar com um boneco que te força a
 mudar sua forma de jogar.
 
-### Scaling Anti-Snowball (-nível -gold -toxicidade -tecladosquebrados)
+### Scaling Anti-Snowball (-nível -gold -toxicidade)
 
 Uma das características mais frustrantes de MOBAs é o "efeito bola-de-neve", ou
 seja, quando "uma vitória torna a próxima vitória mais provável". Por exemplo,
@@ -220,7 +226,7 @@ skin nova. Por exemplo, em jogos como Ragnarok Online, cada pose precisa ser
 criada em 5 posições diferentes: baixo, baixo-esquerda, esquerda, cima-esquerda,
 cima (as 3 posições olhando para a direita são espelhadas).
 
-![ragnarok](https://i.imgur.com/fyokCpt.png)
+![ragnarok](images/ragnarok.png)
 
 O resultado disso é um gráfico extremamente atraente, porém, com custos de
 produção, no mínimo, 5x elevados. Um outro extremo seria o de ter apenas uma
@@ -228,9 +234,10 @@ direção: esquerda. Inicialmente, um gráfico assim soa rígido e inviável, po
 é possível fazer funcionar de uma forma bem engajante, principalmente utilizando
 efeitos inteligentemente. um exemplo disso é o "among us", que, obviamente, não
 é o jogo mais apelativo visualmente, porém tem uma identidade visual simples e
-palatável que certamente fez parte do seu sucesso.
+palatável que certamente fez parte do seu sucesso. Repare que o personagem nunca
+olha pra baixo, mesmo andando pra baixo!
 
-https://i.imgur.com/hFbEmEs.mp4
+![among](images/among.gif)
 
 No caso do TaeMOBA, porém, um estilo um pouco mais "afiado" faz mais sentido
 para mim. Um bom exemplo que se aplica bastante, tanto personagem quanto
@@ -240,7 +247,7 @@ com uma direção só. Esse exemplo é bem interessante pois ele é mais sério 
 dark, o que se adequa mais a um jogo competitivo. Além do que, a ausência de
 outlines e pouco sombreamento (apenas 2 tons de luz) simplificam a produção.
 
-https://i.imgur.com/TldxoYA.mp4
+![wizard](images/wizard.gif)
 
 No que se trata de animações de combate, uma inspiração que eu acho extremamente
 pertinente é o Fire Emblem, na sua fase pixel art. Os personagens em si, apesar
@@ -249,16 +256,16 @@ sombreamento), então, nesse aspecto, não se aplica. Porém, a animação em si
 extremamente relevante, por dois motivos: 1. ela passa uma sensação de dimanismo
 e poder; 2. isso é feito com uma quantidade baixíssima de frames!
 
-![lyncritgif](https://i.imgur.com/ZEACDhl.gif)
+![lyncritgif](images/lyncrit.gif)
 
-![florinacritgif](https://i.imgur.com/J4nRSHM.gif)
+![florinacritgif](images/florinacrit.gif)
 
-![assassingif](https://s3-forums.serenesforest.net/monthly_2018_06/Assassin.gif.e5a4ff0fd3fb3bb0a6adff826a697710.gif)
+![assassingif](images/assassincrit.gif)
 
 Mas como é possível passar tanto dinamismo, com tão poucos frames? Se
 analisarmos as sprite sheets, conseguimos notar fatores essenciais.
 
-![lyncritsheet](https://i.imgur.com/rFCUupf.png)
+![lyncritpng](images/lyncrit.png)
 
 1. **Keyframes cirúrgicos**: o personagem é desenhado em poucas poses (essa
    animação inteira tem apenas 4 poses!), porém, as poses escolhidas são
@@ -289,7 +296,7 @@ analisarmos as sprite sheets, conseguimos notar fatores essenciais.
    para voltar para a posição de repouso, isso significa que o personagem chegou
    lá de forma extremamente ágil.
 
-Para o ambiente (mapa/ambiente/background), eu imagino algo com cores mais
+Para o ambiente (mapa/fase/background), eu imagino algo com cores mais
 "soft" e "pastel", poucos detalhes e baixa complexidade. Isso será extremamente
 importante para destacar os personagens do fundo; ou seja, evitando com que a
 tela se torne "poluida demais". Por exemplo, considere o jogo "Rivals of
@@ -297,13 +304,13 @@ Aether", que, sem dúvidas, tem gráficos lindos, porém, em certos momentos, se
 torna difícil de encontrar os personagens na tela. Analise a imagem abaixo e
 responda rápido: quantos personagens tem na tela?
 
-![rivals](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJff18AlPRwRPeZq3yZ5IMo32Z_xiINkJbABhg1tkwwD8f_IWhdiapVhRkSV3ZlDMb-eY&usqp=CAU)
+![rivals](images/rivals.jpeg)
 
 Talvez você tenha notado os 4 personagens presentes, porém, não há como negar
 que o background tornou essa tarefa muito mais difícil que deveria. Compare, por
 exemplo, com o Among Us:
 
-![amongfundo](https://www.emulatorpc.com/wp-content/uploads/2021/03/among-us-squad-1024x576-1.jpg)
+![amongfundo](images/among.gif)
 
 A simplicidade dos gráficos do Among torna extremamente simples de separar os
 bonecos do fundo, e "entender o que está acontecendo". Por isso, no caso do
@@ -313,10 +320,22 @@ cabeça é fazer o fundo inspirado em desenhos como Adventure Time e Steven
 Universe, cujas paletas de cores conseguem passar imagens esteticamente
 atraentes, sem muita complexidade visual.
 
-![steven](https://i.imgur.com/tDp5KIc.png)
+![steven](images/steven.png)
+
+Outras inspirações (que não necessariamente seguem todos os pontos levantados,
+mas são interessantes de estudar):
+
+![](images/singorb.gif)
+
+![](images/bolhudo.gif)
+
+![](images/tirinhos.gif)
+
+![](images/prantas.gif)
 
 Em resumo, ainda estou estudando o melhor gráfico para a proposta do TaeMOBA,
 porém, inicialmente, o que tenho em mente é um gráfico 2D, com um fundo simples,
 soft e pastel, e personagens olhando apenas para uma direção (frente), com
 sombreamento simplificado, e animações fluidas com poucos keyframes e abuso de
 motion-blur para causar sensação de velocidade, impacto e poder. 
+
