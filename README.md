@@ -283,7 +283,7 @@ localizar os personagens na tela. Observe as imagens abaixo e, para cada uma,
 responda: quantos personagens tem na tela?
 
 ![rivals](images/rivals.jpeg)
-![amongfundo](images/amongfundo.jpeg)
+![amongs](images/amongs.jpeg)
 
 A simplicidade dos gráficos do Among Us torna muito mais fácil separar os
 personagens do fundo e entender o que está acontecendo. Para o TaeMOBA, devemos
