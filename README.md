@@ -9,10 +9,10 @@ trabalho da [HOC](https://HigherOrderCO.com)).
 
 O TaeMOBA nasce de uma frustração pessoal com o design de MOBAs modernos. Na
 minha percepção, poucos desenvolvedores pensam fora da caixa. Dogmas raramente
-são questionados e mecânicas novas "saem da caixa" raramente. Resumidamente,
-todos os MOBAs modernos são extremamente parecidos entre si. O TaeMOBA propõe-se
-a quebrar completamente a fórmula, criando algo inovador e original, baseado em
-ideias e pensamentos que acumulei ao longo de anos.
+são questionados e mecânicas novas raramente quebram normas estabelecidas.
+Resumidamente, todos os MOBAs modernos são extremamente parecidos entre si. O
+TaeMOBA propõe-se a quebrar completamente a fórmula, criando algo inovador e
+original, baseado em ideias e pensamentos que acumulei ao longo de anos.
 
 Uma das características mais importantes desse projeto é que seu design não será
 pré-definido em um GDD estático, como é feito geralmente. Ao invés disso,
