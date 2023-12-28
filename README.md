@@ -279,12 +279,18 @@ analisarmos as sprite sheets, conseguimos notar fatores essenciais.
 Para ambientes e fundo, imagino algo com cores mais suaves, poucos detalhes e
 baixa complexidade. Isso é importante para destacar os personagens do fundo. Por
 exemplo, o jogo "Rivals of Aether" tem gráficos lindos, mas às vezes é difícil
-localizar os personagens na tela. Compare com o Among Us, onde a simplicidade
-dos gráficos torna muito mais fácil separar os personagens do fundo e entender o
-que está acontecendo. Para o TaeMOBA, devemos manter um mapa/ambiente simples
-com cores pastel, destacando os personagens e objetos. Uma ideia que me vem à
-cabeça é desenhos como Adventure Time e Steven Universe, que usam paletas de
-cores que criam imagens atraentes sem muita complexidade visual.
+localizar os personagens na tela. Observe as imagens abaixo e, para cada uma,
+responda: quantos personagens tem na tela?
+
+![rivals](images/rivals.jpeg)
+![amongfundo](images/amongfundo.jpeg)
+
+A simplicidade dos gráficos do Among Us torna muito mais fácil separar os
+personagens do fundo e entender o que está acontecendo. Para o TaeMOBA, devemos
+manter um mapa/ambiente simples com cores pastel, destacando os personagens e
+objetos. Uma ideia que me vem à cabeça é desenhos como Adventure Time e Steven
+Universe, que usam paletas de cores que criam imagens atraentes sem muita
+complexidade visual.
 
 ![steven](images/steven.png)
 
