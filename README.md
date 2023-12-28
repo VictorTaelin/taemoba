@@ -305,3 +305,21 @@ simples, suave e em cores pastel, e personagens voltados para apenas uma direç�
 (frente), com sombreamento simplificado e animações fluidas com poucos
 quadros-chave e uso extensivo de motion blur para transmitir sensações de
 velocidade, impacto e força.
+
+### Mapa e Objetivos
+
+O mapa do TaeMOBA será construído de forma diferente dos MOBAs convencionais, com um ambiente aberto e um design assimétrico, inspirado em jogos como Fire Emblem. Nele, os jogadores encontrarão múltiplos objetivos espalhados por diferentes áreas do mapa, como vilas com itens para coletar, florestas para extrair recursos, minas para explorar, cavernas de dragões para derrotar e pilhar, e castelos para estabelecer bases e artilharia. O objetivo principal será pontuar através da conclusão de diversos objetivos e combinação de diferentes estratégias para vencer a partida.
+
+![fireemblemmap0](images/fireemblemmap0.jpeg)
+![fireemblemmap1](images/fireemblemmap1.jpeg)
+![fireemblemmap2](images/fireemblemmap2.jpeg)
+
+Por exemplo, acima estão algumas imagens de mapas do Fire Emblem, mostrando
+campos abertos com várias "coisas" espalhadas (salas, baús, castelos, etc.),
+permitindo que os jogadores se movam livremente e realizem os objetivos na ordem
+que desejarem. (Ignore o estilo retrô e baseado em tiles; esse não é o ponto.
+Estou usando o Fire Emblem apenas para ilustrar a ideia.)
+
+No TaeMOBA, não haverá uma fase de rotas tradicional e o jogo será centrado na realização de objetivos, coleta de recursos e pontuação por diversos meios. Dessa forma, os jogadores terão liberdade para explorar diferentes estratégias de jogo, incluindo evitar interações com o time adversário e focar em objetivos, entrar em "modo guerra" e ir diretamente para lutas em equipe, e muitas outras abordagens intermediárias. Essa flexibilidade permite uma experiência de jogo dinâmica e emocionante, com várias formas de obter a vitória e diferentes desafios a enfrentar a cada partida.
+
+Em resumo, o mapa e os objetivos do TaeMOBA serão projetados para oferecer uma experiência única e inovadora, com várias possibilidades de estratégias e caminhos para a vitória. O jogo será centrado na realização de objetivos e coleta de recursos, permitindo aos jogadores explorar várias táticas e estilos de jogo, resultando em uma batalha emocionante e imprevisível a cada partida.
