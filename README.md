@@ -240,6 +240,10 @@ dinamismo e poder, usando uma quantidade mínima de frames.
 
 ![florinacritgif](images/florinacrit.gif)
 
+![druidcritgif](images/druidcrit.gif)
+
+![swordmastercritgif](images/swordmastercrit.gif)
+
 ![assassingif](images/assassincrit.gif)
 
 Mas como é possível passar tanto dinamismo, com tão poucos frames? Se
