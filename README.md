@@ -316,6 +316,14 @@ simples, suave e em cores pastel, e personagens voltados para apenas uma direç�
 quadros-chave e uso extensivo de motion blur para transmitir sensações de
 velocidade, impacto e força.
 
+**UPDATE:**
+
+O grafico do jogo provavelmente será bem simples, com um mapa 2D top down, e os
+sprites dos personagens sobrepostos em side view, com apenas UM angulo ("pra
+frente").
+
+![map_example](images/map_examply.png)
+
 ### Mapa e Objetivos
 
 O mapa do TaeMOBA será construído de forma diferente dos MOBAs convencionais, com um ambiente aberto e um design assimétrico, inspirado em jogos como Fire Emblem. Nele, os jogadores encontrarão múltiplos objetivos espalhados por diferentes áreas do mapa, como vilas com itens para coletar, florestas para extrair recursos, minas para explorar, cavernas de dragões para derrotar e pilhar, e castelos para estabelecer bases e artilharia. O objetivo principal será pontuar através da conclusão de diversos objetivos e combinação de diferentes estratégias para vencer a partida.
