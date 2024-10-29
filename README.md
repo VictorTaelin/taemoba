@@ -324,6 +324,8 @@ frente").
 
 ![map_example](images/map_examply.png)
 
+Ragnarok Battle: https://www.youtube.com/watch?v=GL1nEZzifi4&t=4s
+
 ### Mapa e Objetivos
 
 O mapa do TaeMOBA será construído de forma diferente dos MOBAs convencionais, com um ambiente aberto e um design assimétrico, inspirado em jogos como Fire Emblem. Nele, os jogadores encontrarão múltiplos objetivos espalhados por diferentes áreas do mapa, como vilas com itens para coletar, florestas para extrair recursos, minas para explorar, cavernas de dragões para derrotar e pilhar, e castelos para estabelecer bases e artilharia. O objetivo principal será pontuar através da conclusão de diversos objetivos e combinação de diferentes estratégias para vencer a partida.
